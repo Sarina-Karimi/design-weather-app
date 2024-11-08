@@ -3,26 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>weather App</title>
+    <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
-    <form>
-        <input type="search" class="search">
-        <input type="submit">
-    </form>
+    <div class="weather-app">
     <header>
-        <h1>paris</h1>
-    </header>
-    <p>Friday 15:34, overcast clouds
-        Humidity: 97%, Wind: 3.6km/h
+    <form>
+        <input type="search" class="search-input-form" placeholder="Enter a city..">
+        <input type="submit" class="submit-button" placeholder="Search">
+    </form>
+</header>
+<main>
+    <div class="weather-app-data">
+      <div>
+        <h1 class="weather-app-city" id="city"></h1>
+        <p class="weather-app-details">
+          <span id="time"></span>,
+          <span id="description"></span>
+          <br />
+          Humidity: <strong id="humidity"></strong>, Wind:
+          <strong id="wind-speed"></strong>
         </p>
-        <span>☁️9°C
-        </span>
-        <footer>
-            This project was coded by 
-            <a href="#"></a> Sarina Karimi,
-            <a href="#"></a> is open-sourced on GitHub and 
-            <a href="#"></a> hosted on Netlify
-        </footer>
+      </div>
+      <div class="weather-app-temperature-container">
+        <div id="icon"></div>
+        <div class="weather-app-temperature" id="temperature"></div>
+        <div class="weatehr-app-unit">°C</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    This project was coded by
+    <a href="#" target="_blank"> Sarina Karmi</a>,
+    is
+    <a href="#" target="_blank"
+      >open-sourced on GitHub</a
+    >
+    and
+    <a href="#" target="_blank"
+      >hosted on Netlify</a
+    >
+  </footer>
+</div>
+<script src="src/index.js"></script>
 </body>
 </html>
