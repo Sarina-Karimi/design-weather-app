@@ -8,7 +8,11 @@
 
 body{
     background: #f9f7fe;
-}
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
 
 a{
     color: deeppink;
