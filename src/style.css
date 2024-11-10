@@ -17,12 +17,13 @@ body{
 a{
     color: deeppink;
 }
-
+ 
 strong{
     color: deeppink;
 }
 
 .submit-form-button{
+
     padding: 15px 30px;
     background: rgb(152, 71, 244);
     color: white;
