@@ -87,6 +87,7 @@ function refreshWeather(response) {
           </div>
         `;
         }
+        console.log(2);
       });
     let forecastElement = document.querySelector("#forecast");
     forecastElement.innerHTML = forecastHtml;
