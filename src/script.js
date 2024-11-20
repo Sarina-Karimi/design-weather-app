@@ -66,7 +66,6 @@ function refreshWeather(response) {
       axios.get(apiUrl).then(displayForecast);
     }
     function displayForecast() {
-      let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
       let forecastHtml = "";
     
       response.data.daily.forEach(function (day) {
