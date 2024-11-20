@@ -101,9 +101,8 @@ body {
   }
   
   .weather-forecast-icon {
-    font-size: 38px;
-    text-align: center;
-  }
+    width: 88px;
+    }
   .weather-forecast-temperatures {
     text-align: center;
     color: #f65282;
